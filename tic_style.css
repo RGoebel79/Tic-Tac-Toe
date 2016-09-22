@@ -1,0 +1,143 @@
+body {
+  background-color: #333333;
+  z-index:-5;
+}
+.board {
+  height:375px;
+  width:350px;
+  z-index:2;
+  border-radius:20%;
+  position: relative;
+}
+.row {
+  padding: 0px;
+  margin:0;
+  width:100%;
+  z-index:-2;
+}
+.col-xs-4 {
+  border-style: solid;
+  height:115px;
+  color: #333333;
+  font-weight:bold;
+  font-size:45px;
+}
+.modal {
+  margin-left: 650px;
+  margin-top: 30px;
+  display:none;
+  z-index:3;
+  height:350px;
+  width:630px;
+  position:fixed;
+  text-align:center;
+  padding-top:100px;
+  border-radius: 14px 15px 14px 14px;
+  box-shadow: 5px 5px black;
+  background-color: white;
+}
+
+.modalContent {
+  height: 350px;
+  background-color: white;
+  text-align:center;
+  border-radius: 14px 15px 14px 14px;
+  padding:50px 120px 0px 110px;
+}
+.modalContent:target {
+  height: 350px;
+  width: 64%;
+  opacity: 1;
+  padding-top:50px;
+  
+}
+.player {
+  color:white;
+  height:150px;
+  width:100%;
+  text-align: center;
+  margin-top:20px;
+  font-size:25px;
+}
+.moved {
+  text-align: center;
+  border-radius:5px;
+  font-weight: bold;
+}
+.over {
+  color:white;
+  height:150px;
+  width:100%;
+  text-align: center;
+}
+.test {
+  color:white;
+  height:100px;
+  width:100%;
+  text-align: center;
+}
+.XnO {
+  width:40px;
+  margin:10px 10px 0 0;
+  font-weight: bold;
+  border-radius: 10%;
+}
+.playerChoice {
+  font-size: 35px;
+  font-family:;
+  font-weight: bold;
+  
+}
+.button {
+  text-align:center;
+  //margin-left:47%;
+  margin-bottom:20px;
+  
+}
+.a1 {
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 10% 0 0 0;
+}
+.a2{
+  border-bottom:2px solid black;
+  border-left:2px solid black;
+  border-right:2px solid black;
+}
+.a3 {
+  border-bottom:2px solid black;
+  border-left:2px solid black;
+  border-radius: 0 10% 0 0;
+}
+.b1{
+  border-top: 2px solid black;
+  border-right:2px solid black;
+  border-bottom: 2px solid black;
+}
+.b2{
+  border: 2px solid black;
+ 
+}
+.b3{
+  border-left:2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.c1{
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-radius: 0 0 0 10%;
+}
+.c2{
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.c3{
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-radius: 0 0 10% 0;
+}
+.box:hover:enabled {
+  opacity: .9;
+}
